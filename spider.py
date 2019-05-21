@@ -34,10 +34,10 @@ class login(object):
     # 云打码
     def getCode(self, imgPath):
         # 用户名
-        username = 'Ojiasj'
+        username = ''
 
         # 密码
-        password = 'Ojiasj3455'
+        password = ''
 
         # 软件ID，开发者分成必要参数。登录开发者后台【我的软件】获得！
         appid = 7778

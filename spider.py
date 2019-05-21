@@ -34,10 +34,10 @@ class login(object):
     # 云打码
     def getCode(self, imgPath):
         # 用户名
-        username = ''
+        username = 'Ojiasj'
 
         # 密码
-        password = ''
+        password = 'Ojiasj3455'
 
         # 软件ID，开发者分成必要参数。登录开发者后台【我的软件】获得！
         appid = 7778
@@ -279,16 +279,11 @@ class login(object):
 
 if __name__ == "__main__":
     # 基本登录信息
-    # username = input("请输入登录账户：")
-    # pwd = input("请输入密码：")
-    # date = input("请输入要查询的车次时间，例如：2018-10-20：")
-    # start = input("请去地区名称代码按ctrl+F去查出发地：")
-    # end = input("请去地区名称代码按ctrl+F去查目的地：")
-    username = 15626295473
-    pwd = "Ojiasj3455"
-    date = "2019-05-21"
-    start = "广州南"
-    end = "潮阳"
+    username = input("请输入登录账户：")
+    pwd = input("请输入密码：")
+    date = input("请输入要查询的车次时间，例如：2018-10-20：")
+    start = input("请输入出发地：")
+    end = input("请输入目的地：")
     site = pickle.load(open("site", "rb"))
     try:
         if start not in site or end not in site:
